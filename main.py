@@ -93,4 +93,4 @@ with torch.no_grad():
 print(f"Accuracy on the test set: {100 * correct / total}%")
 
 # Save the trained model
-# torch.save(model.state_dict(), 'dyslexia_detection_model.pth')
+torch.save(model.state_dict(), 'dyslexia_detection_model.pth')
